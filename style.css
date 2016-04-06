@@ -1836,7 +1836,7 @@ ul.dropdown-menu.drp-mnu li a i {
 .main-content {
     margin-left: 200px;
     background:#F8F8F8;
-    /*min-height: 1000px;*/
+    min-height: 100%;
 }
 .main-content2{
 	min-height: 1250px !important;
@@ -7635,7 +7635,7 @@ textarea.form-control {
     line-height: 0px;
 }}
 #mysp{ background-color: #756F6F;}
-#myspfa{margin-top: 363px;    color: #2F2E2E;}
+#myspfa{margin-top: 363px;}
 #mainpco{display: inline-flex;}
 .pagination{margin:5px 0!important;}
 
@@ -7651,13 +7651,11 @@ textarea.form-control {
     background-color: #99B9C5;
     width: 48%;
 	height: 33px;
-	    color: #2F2E2E;
 }
 .leftspa {
     float: left;
     background-color: #99B9C5;
     width: 48%;
-	    color: #2F2E2E;
 }
 .belowcom {
     margin-top: 5px;
@@ -7669,13 +7667,11 @@ textarea.form-control {
     background-color: #99B9C5;
     width: 49%;
 	height: 33px;
-	    color: #2F2E2E;
 }
 .leftc {
  float: left;
     background-color: #99B9C5;
     width: 49%;
-	    color: #2F2E2E;
 }
 @media screen and (min-device-width: 481px) and (max-device-width: 768px)
 {#mainpco {

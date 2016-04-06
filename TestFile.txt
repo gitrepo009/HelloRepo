@@ -74,7 +74,7 @@ $(document).ready(function(){
 					
 		<div id="maincon" class="col-md-12">
 			<div class="col-md-4 span_8">
-		<div class="col-md-12"><a href="#"><span class="leftc"><i class="fa fa-arrow-up fa-2x"></i></span></a> <a href="#"><span class="rightc"><i class="fa fa-arrow-down fa-2x"></i></span></a></div>		
+		<div class="col-md-12"><span class="leftc"><i class="fa fa-arrow-up fa-2x"></i></span> <span class="rightc"><i class="fa fa-arrow-down fa-2x"></i></span></div>		
 			<div id="myspt"class="col-md-12">
 	
 				
@@ -130,11 +130,11 @@ $(document).ready(function(){
 						
 					</div>
 				</div>
-				<div class="belowcom"><a href="#"><span class="leftspa"><i class="fa fa-step-backward fa-2x fa-rotate-270"></i></span></a><a href="#"><span class="rightspa"><img class="rightimg"src="images/down.png"></span></a></div>
+				<div class="belowcom"><span class="leftspa"><i class="fa fa-step-backward fa-2x fa-rotate-270"></i></span><span class="rightspa"><img class="rightimg"src="images/down.png"></span></div>
 			</div>
 		</div>
 			<div id="mainpco"class="col-md-8 span-12">
-			<div id="mysp"class="span-1"><a href="#"><i id="myspfa" class="fa fa-caret-left fa-5x pull-below"></i></a></div>
+			<div id="mysp"class="span-1"><i id="myspfa" class="fa fa-caret-left fa-5x pull-below"></i></div>
 			<div id="mycmd"class="col-md-11">
 				<div class="activity_box activity_box1">
 					<h3>Page <span class="pageic"><img src="images/page.png"></span></h3>
@@ -178,7 +178,7 @@ $(document).ready(function(){
 					
 				</div>
 				</div>
-				<div id="mysp"class="span-1"><a href="#"><i id="myspfa" class="fa fa-caret-right fa-5x pull-below"></i></a></div>
+				<div id="mysp"class="span-1"><i id="myspfa" class="fa fa-caret-right fa-5x pull-below"></i></div>
 				
 			</div>
 				<div class="row">
