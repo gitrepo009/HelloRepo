@@ -6414,7 +6414,7 @@ footer {
     margin: 2em 0 5em;
 }
 body.sticky-header {
-    background: #000;
+    background: ;
 }
 .sticky-left-side {
     position: absolute;
@@ -7639,8 +7639,8 @@ textarea.form-control {
 #mainpco{display: inline-flex;}
 .pagination{margin:5px 0!important;}
 
-	@media screen and (min-device-width: 481px) and (max-device-width: 768px)
-	{.col-md-8{width: 100%!important;}}
+	@media(max-width: 768px)
+	{.col-md-11{width: 100%!important;}}
 	.popover-content{padding:0px!important;}
 	.popover-title {
     background-color: rgba(57, 228, 26, 0.88);

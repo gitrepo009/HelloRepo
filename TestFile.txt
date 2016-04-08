@@ -133,7 +133,7 @@ $(document).ready(function(){
 				<div class="belowcom"><span class="leftspa"><i class="fa fa-step-backward fa-2x fa-rotate-270"></i></span><span class="rightspa"><img class="rightimg"src="images/down.png"></span></div>
 			</div>
 		</div>
-			<div id="mainpco"class="col-md-8 span-12">
+			<div id="mainpco"class="col-md-8">
 			<div id="mysp"class="span-1"><i id="myspfa" class="fa fa-caret-left fa-5x pull-below"></i></div>
 			<div id="mycmd"class="col-md-11">
 				<div class="activity_box activity_box1">
@@ -223,15 +223,10 @@ $(document).ready(function(){
 			
 		</div>
 				</div>
-			<!--body wrapper start-->
-			</div>
-			 <!--body wrapper end-->
-		</div>
-        <!--footer section start-->
 			
-        <!--footer section end-->
-
-      <!-- main content end-->
+			</div>
+			
+        
    </section>
 </body>
 </html>
