@@ -61,6 +61,8 @@ $(document).ready(function(){
 				<div class="user-panel-top">  	
 					<div class="profile_details_left">
 						<h3>Database Management Portal</h3>
+					</div><br><div class="profile_details_left1">
+						<h4 class="dbr">Database Rating</h4>
 					</div>
 					           	
 					
@@ -73,8 +75,8 @@ $(document).ready(function(){
 				<div class="graphs">
 					
 		<div id="maincon" class="col-md-12">
-			<div class="col-md-4 span_8">
-		<div class="col-md-12"><span class="leftc"><i class="fa fa-arrow-up fa-2x"></i></span> <span class="rightc"><i class="fa fa-arrow-down fa-2x"></i></span></div>		
+			<div id="leftcol"class="col-md-4 span_8">
+		<!--<div class="col-md-12"><span class="leftc"><i class="fa fa-arrow-up fa-2x"></i></span> <span class="rightc"><i class="fa fa-arrow-down fa-2x"></i></span></div>	-->	
 			<div id="myspt"class="col-md-12">
 	
 				
@@ -127,10 +129,10 @@ $(document).ready(function(){
 							</div>
 							<div class="clearfix"> </div>
 						</div>
-						
+				
 					</div>
 				</div>
-				<div class="belowcom"><span class="leftspa"><i class="fa fa-step-backward fa-2x fa-rotate-270"></i></span><span class="rightspa"><img class="rightimg"src="images/down.png"></span></div>
+				<!--<div class="belowcom"><span class="leftspa"><i class="fa fa-step-backward fa-2x fa-rotate-270"></i></span><span class="rightspa"><img class="rightimg"src="images/down.png"></span></div>-->
 			</div>
 		</div>
 			<div id="mainpco"class="col-md-8">
@@ -142,7 +144,14 @@ $(document).ready(function(){
 						<div class="activity-row activity-row1">
 							<div class="col-md-6 ">
 							<div class="form-group">
-							<label class="headt">Section-1</label> <br> <label class="mylab" for="comment">First Class</label>
+							<label class="headt">Section-1</label> <br>  <div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">First Class
+    <span class="caret"></span></button>
+    <ul id="uldropdown"class="dropdown-menu"> <li><a href="#">First Class</a></li>
+      <li><a href="#">Second Class</a></li>
+      <li><a href="#">3rd Class</a></li>
+	   <li><a href="#">4th  Class</a></li>
+    </ul></div>
+
   <textarea placeholder="Comments"class="form-control" rows="14" id="comment"></textarea>
 </div>
 							</div>
@@ -150,7 +159,13 @@ $(document).ready(function(){
 						<div class="col-md-6 ">
 							<div class="form-group">
 							<label class="headt">Section-2</label>
-  <label class="mylab" for="comment">Second Class</label>
+  <br>  <div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">First Class
+    <span class="caret"></span></button>
+    <ul id="uldropdown"class="dropdown-menu"> <li><a href="#">First Class</a></li>
+      <li><a href="#">Second Class</a></li>
+      <li><a href="#">3rd Class</a></li>
+	   <li><a href="#">4th  Class</a></li>
+    </ul></div>
   <textarea placeholder="Comments"class="form-control" rows="14" id="comment"></textarea>
 </div>
 							</div>
@@ -160,13 +175,25 @@ $(document).ready(function(){
 						<div class="activity-row activity-row1">
 							<div class="col-md-6 ">
 							<div class="form-group">
-  <label class="mylab" for="comment">First Class</label>
+  <br>  <div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">First Class
+    <span class="caret"></span></button>
+    <ul id="uldropdown"class="dropdown-menu"> <li><a href="#">First Class</a></li>
+      <li><a href="#">Second Class</a></li>
+      <li><a href="#">3rd Class</a></li>
+	   <li><a href="#">4th  Class</a></li>
+    </ul></div>
   <textarea placeholder="Comments"class="form-control" rows="14" id="comment"></textarea>
 </div>
 							</div>
 							<div class="col-md-6 ">
 							<div class="form-group">
-  <label class="mylab" for="comment">4th Class</label>
+  <br>  <div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">First Class
+    <span class="caret"></span></button>
+    <ul id="uldropdown"class="dropdown-menu"> <li><a href="#">First Class</a></li>
+      <li><a href="#">Second Class</a></li>
+      <li><a href="#">3rd Class</a></li>
+	   <li><a href="#">4th  Class</a></li>
+    </ul></div>
   <textarea placeholder="Comments"class="form-control" rows="14" id="comment"></textarea>
 </div>
 							</div>
@@ -181,9 +208,12 @@ $(document).ready(function(){
 				<div id="mysp"class="span-1"><i id="myspfa" class="fa fa-caret-right fa-5x pull-below"></i></div>
 				
 			</div>
-				<div class="row">
+				
+			
+			</div>
+			<div class="row">
 		
-			<div class="col-md-7">
+			<div class="col-md-10">
 			 <ul class="pagination">
   <li><a href="#">1</a></li>
   <li><a href="#">2</a></li>
@@ -217,9 +247,6 @@ $(document).ready(function(){
   <span class="reci"><a href="#">Submit</a></span> 
 </div>
 </div>
-			
-			</div>
-			
 			
 		</div>
 				</div>

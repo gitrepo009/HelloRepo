@@ -1,0 +1,19 @@
+
+Untitled
+Code
+Preview
+                    script.js
+                    
+angular.module('app', [])
+  .controller('MyCtrl', ['$scope', '$window', function ($scope,  $window) {
+      console.log($window);
+      $scope.scroll = function () {
+        $window.scrollTo(0, angular.element(document.getElementById('div1')).offsetTop);  
+        // $window.scrollTo(0, 0);  
+      };
+  }]);
+
+                
+				
+				
+				
